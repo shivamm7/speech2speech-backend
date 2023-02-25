@@ -26,3 +26,6 @@ URL: https://www.cfilt.iitb.ac.in/ssmt/speech2speech
 3. If sufficient free space is not available on a GPU then the next GPU on the machine is checked.
 4. Example: Consider a DGX A100 machine which consists of 8 Nvidia A100 GPUs and the SSMT pipeline occupies a space of 6GB. Then on a single GPU 13 SSMT pipelines can be run. So, across 8 GPUs a total of 13*8=104 SSMT pipelines can be run.
 5. The code is written is such a way that it can dynamically load models on multi GPUs machines to utilize the entire GPU memory.
+
+# Frontend Repositry
+Link: https://github.com/shivamm7/speech2speech-frontend
